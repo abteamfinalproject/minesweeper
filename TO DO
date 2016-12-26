@@ -1,0 +1,6 @@
+- Fix some character input issues. [DONE]
+- Add timer to update game screen after 60 seconds of no activity. [DONE]
+- Case-insensitive comparison of player names in the Scores Module. [DONE]
+- Modifications to the Input Module validation functions. [DONE]
+- Position input validation issues. [DONE]
+- Cygwin installation on Shams's laptop.
