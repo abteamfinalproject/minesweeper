@@ -20,7 +20,7 @@
 // System calls for clearing command line screen
 #if defined (__MINGW32__) || defined (__MINGW64__)
 #define CLR_SCR "cls"
-#elif defined (__gnu_linux__)
+#elif defined (__gnu_linux__) || defined (__CYGWIN__)
 #define CLR_SCR "clear"
 #endif
 
