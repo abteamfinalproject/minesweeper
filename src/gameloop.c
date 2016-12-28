@@ -154,7 +154,7 @@ char startGame(int m, int n, Cell grid[m][n], int timePassed, int movesDone)
         printf("\t[Q]uit Game\n");
         printf("Action: ");
 
-        if(poll(&pfd, 1, 6oe3)) // Poll stdin for 60 seconds
+        if(poll(&pfd, 1, 60e3)) // Poll stdin for 60 seconds
         {
             action = ab_getchar();
             action = tolower(action);
